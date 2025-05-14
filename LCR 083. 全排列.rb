@@ -5,7 +5,7 @@ def permute(nums)
 end
 
 
-
+###############################################################################
 # @param {Integer[]} nums
 # @return {Integer[][]}
 def permute(nums)
@@ -31,7 +31,7 @@ end
 
 
 
-
+################################################################################
 
 # @param {Integer[]} nums
 # @return {Integer[][]}
@@ -44,7 +44,7 @@ end
 
 def backtrack(start_index,current_subset,nums,used)
   if current_subset.length==nums.length
-    @res<<current_subset.dup
+      @res<<current_subset.dup
     return
   end 
 
